@@ -1,0 +1,23 @@
+{
+    "name": "yadjet/yii2-ztree",
+    "description": "JQuery ZTree Yii2",
+    "keywords": ["yii2", "tree", "ztree"],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "hiscaler",
+            "email": "hiscaler@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yadjet\\ztree\\": "src"
+        }
+    }
+}
