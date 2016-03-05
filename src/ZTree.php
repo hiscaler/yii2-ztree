@@ -55,7 +55,7 @@ class ZTree extends \yii\base\Widget
      */
     public function run()
     {
-        echo '<ul id=' . $this->id . ' class="ztree"></ul>';
+        echo '<ul id="' . $this->id . '" class="ztree"></ul>';
         ZTreeAsset::register($this->getView());
         $this->registerClientScript();
     }
